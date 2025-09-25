@@ -198,7 +198,16 @@
 </head>
 <body>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Logo_of_a_school.png" alt="Logo Escuela">
+        <img src="imagenes\logo35.png" alt="Logo Escuela" class="logo">
+
+        <style>
+            .logo {
+                width: 60px;
+                height: auto;
+                border-radius: 1px; /* opcional, esquinas redondeadas */
+            }
+            </style>
+
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
@@ -238,14 +247,16 @@
     <section id="carreras">
         <h2>Carreras Técnicas</h2>
         <div class="info-cards">
-            <div class="card">
+            <a href="automotores.html" class="card">
                 <h3>Automotores</h3>
                 <p>Formación integral en mecánica, mantenimiento y tecnología automotriz moderna.</p>
-            </div>
-            <div class="card">
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Ver más</p>
+            </a>
+            <a href="computacion.html" class="card">
                 <h3>Computación</h3>
                 <p>Aprendizaje de programación, redes, sistemas y desarrollo de software profesional.</p>
-            </div>
+                <p style="margin-top: 10px; font-weight: bold; color: #333;">Ver más</p>
+            </a>
         </div>
     </section>
 
